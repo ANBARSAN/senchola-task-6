@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Reem Kufi", sans-serif !important;
+  }
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    height: max-content;
+    border: 1px solid black;
+    margin: 100px auto;
+    position: relative;
+    border-radius: 3px;
+    background-color: rgb(254 158 13);
+    max-width: 333px;
+    font-family: "Reem Kufi", sans-serif !important;
+}
+.form h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+.form input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-family: "Reem Kufi", sans-serif !important;
+}
+label{
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+    button {
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #a05f0c;
+        border-radius: 10px;
+        border: none;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+#close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+}
+#fg{
+    margin-top: 20px;
+    cursor: pointer;
+}
